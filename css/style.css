@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --helper-white:#ffffff;
+    --primery-nav-color: #272E35;
+    --Heading-gradiant-color: linear-gradient(137deg, rgba(6, 136, 255, 1) 0%, rgba(0, 243, 126, 1) 100%);
+    --light-bg-color: #F5FAFF;
+    --buttons-color: #131416;
+    --buttons-hover-color: #0038ff;
+    --primery-body-text-color: #516270;
+    --primery-strock-color: #a9c2da;
+    --font-family: "Urbanist", sans-serif;
+}
+
+.HeadingOne {
+    font-family: var(--font-family);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: auto;
+
+}
+
+.HeadingTwo {
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: auto;
+
+}
+
+.HeadingThree {
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: auto;
+
+}
+
+.HeadingFour {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: auto;
+
+}
+
+.HeadingFive {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: auto;
+
+}
+
+.PrimaryPara {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+}
+
+.SecondaryPara {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto;
+}
+
+.PrimaryBtn {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: auto;
+    background: var(--buttons-color);
+    text-decoration: none;
+    color: var(--helper-white) ;
+    padding: 16px 14px 16px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all ease-in-out 0.3s ;
+}
+
+.PrimaryBtn:hover{
+    position: relative;
+    background: var(--buttons-hover-color);
+    transform: translate(0px , -10px );
+    top: 0px;
+}
+
+
+.CatogaryItem {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: auto;
+}
