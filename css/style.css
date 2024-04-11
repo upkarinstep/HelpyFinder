@@ -97,3 +97,13 @@
     font-weight: 500;
     line-height: auto;
 }
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Header css start here >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.NavbarRightMenuItem{
+    justify-content: end;
+}
+.NavbarRightMenuItem{
+    gap: 20px;
+}
